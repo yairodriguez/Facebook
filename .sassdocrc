@@ -1,0 +1,15 @@
+basePath: "https://github.com/yairodriguez/facebook"
+dest: "docs/sass"
+display:
+  access: ["private", "public"]
+  alias: true
+  watermark: true
+package:
+  title: "Facebook Docs"
+  name: "Facebook-docs"
+  version: "0.1.0"
+  license: "MIT"
+  homepage: "myfacebook.design"
+theme: "neat"
+groups:
+  undefined: Ungrouped
