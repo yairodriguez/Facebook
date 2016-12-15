@@ -1,0 +1,31 @@
+{
+  "name": "facebook",
+  "version": "1.0.0",
+  "description": "iPhone/iPad concept for Facebook.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "sass-lint --config .scss-lint.yml --verbose --no-exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yairodriguez/facebook.git"
+  },
+  "keywords": [
+    "Facebook",
+    "Mobile First",
+    "RWD",
+    "Sass",
+    "HTML5"
+  ],
+  "author": "Yair <@imyairodriguez>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yairodriguez/facebook/issues"
+  },
+  "homepage": "https://github.com/yairodriguez/facebook#readme",
+  "devDependencies": {
+    "node-sass": "^4.0.0",
+    "sass-lint": "^1.10.2"
+  }
+}
