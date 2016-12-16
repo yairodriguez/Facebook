@@ -1,0 +1,36 @@
+{
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": [ "jsdoc", "closure" ]
+  },
+  "source": {
+    "include": [ "app/scripts" ],
+    "exclude": [ "tests", "node_modules" ],
+    "includePattern": ".+\\.js(doc|x)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "plugins": ["plugins/markdown"],
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false,
+    "applicationName": "Facebook",
+    "disqus": "",
+    "googleAnalytics": "",
+    "openGraph": {
+      "title": "Facebook",
+      "type": "website",
+      "image": "",
+      "site_name": "",
+      "url": ""
+    },
+    "meta": {
+      "title": "Facebook",
+      "description": "iPhone/iPad concept for Facebook",
+      "keyword": "Mobile First, ES6, TDD, Jade, Sass"
+    },
+    "linenums": true
+  },
+  "opts": {
+    "destination": "docs/js/"
+  }
+}
